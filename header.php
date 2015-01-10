@@ -38,5 +38,7 @@
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
 <body <?php body_class(); ?>>
 	 <div class="wrapper">
-        <header></header>
+        <header>
+        	<a style="display:block;width:272px;height:73px;position:absolute;top:25px;font-size:25px;text-decoration:none;" align="center" href="<?php echo site_url(); ?>" width="272" height="73" title="Atelier des couches culottes">Atelier<br>des couches culottes</a>
+        </header>
         <nav><?php wp_nav_menu(array('theme_location' => 'primary' ) ); ?></nav>
